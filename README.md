@@ -2,11 +2,11 @@
 
 A practical cybersecurity laboratory project exploring CAN bus traffic analysis, replay attacks, and signal decoding using the ICSim vehicle simulator.
 
-The project was developed as part of my studies in the **Arqus Joint Master's Programme in International Cybersecurity and Cyberintelligence (MICAC)**.
+The experiment was carried out as part of my studies in the **Arqus Joint Master's Programme in International Cybersecurity and Cyberintelligence (MICAC)**.
 
 ## Project Overview
 
-The objective was to investigate communication over a simulated automotive CAN bus, identify messages associated with vehicle functions, and experimentally reproduce their behavior through CAN frame replay and injection.
+The objective:- investigate communication over a simulated automotive CAN bus, identify messages associated with vehicle functions, and experimentally reproduce their behavior through CAN frame replay and injection.
 
 The project includes traffic captures, custom Python analysis tools, and a technical laboratory report.
 
@@ -71,16 +71,16 @@ python3 ../scripts/idstats.py
 
 ## Repository Contents
 
-- `scripts/` — Python analysis utilities
-- `captures/` — Recorded CAN traffic
-- `screenshots/` — Experimental evidence
-- `report/` — Laboratory report in PDF format
+- `scripts/` 
+- `captures/` 
+- `screenshots/` 
+- `report/` 
 
 ## Security Considerations
 
 The experiments demonstrate how CAN messages can be recorded and replayed when message origin and freshness are not authenticated.
 
-All testing was performed using the **ICSim simulator and the virtual CAN interface `vcan0`**. The results describe the simulated environment and should not be treated as a validated attack against a real vehicle.
+All testing was performed using the **ICSim simulator and the virtual CAN interface `vcan0`**.
 
 ## Credits
 
