@@ -6,7 +6,7 @@ The experiment was carried out as part of my studies in the **Arqus Joint Master
 
 ## Project Overview
 
-The objective:- investigate communication over a simulated automotive CAN bus, identify messages associated with vehicle functions, and experimentally reproduce their behavior through CAN frame replay and injection.
+The objective ===> investigate communication over a simulated automotive CAN bus, identify messages associated with vehicle functions, and experimentally reproduce their behavior through CAN frame replay and injection.
 
 The project includes traffic captures, custom Python analysis tools, and a technical laboratory report.
 
@@ -85,5 +85,3 @@ All testing was performed using the **ICSim simulator and the virtual CAN interf
 ## Credits
 
 Vehicle simulator: [zombieCraig/ICSim](https://github.com/zombieCraig/ICSim).
-
-The Python analysis scripts, traffic experiments, and report document the author's laboratory work.
