@@ -1,0 +1,18 @@
+# Python temporary files
+__pycache__/
+*.pyc
+*.pyo
+
+# Editor temporary files
+*.swp
+*.swo
+*.save
+*~
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Local editor settings
+.vscode/
+.idea/
